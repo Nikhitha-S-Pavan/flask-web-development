@@ -1,3 +1,3 @@
 # flask-web-development
 
-This repository contains flask web application developmenet exercises 
+This repository contains flask web application development exercises 
