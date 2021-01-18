@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+   <body>
+     <h1> Hello {{name}} !</h1>
+      <table border = 1>
+         {% for key, value in result.items() %}
+            <tr>
+               <th> {{ key }} </th>
+               <td> {{ value }} </td>
+            </tr>
+         {% endfor %}
+      </table>
+    <h1> Toatl Percentage of student is {{total}} %</h1>
+     {% if total>50 %}
+         <h1> Your result is pass!</h1>
+     {% else %}
+         <h1>Your result is fail</h1>
+      {% endif %}
+   </body>
+</html>
